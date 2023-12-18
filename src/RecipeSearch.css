@@ -1,0 +1,40 @@
+/* RecipeSearch.css */
+
+.recipe-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.h1 {
+  margin-bottom: 20px;
+  text-align: center; /* Başlığı ortala */
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Input ve butonu yatayda ortala */
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Sonuçlar gösterildiğinde stil */
+.search-bar.show {
+  justify-content: center;
+}
